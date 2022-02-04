@@ -1,0 +1,55 @@
+Copied Xpath From BRM Application
+
+In Home Page, 
+Customer Id's 
+
+1.Xpath Id=//*[@id="ContentPlaceHolder1_txt_customerid"]
+
+2.Attribute Name=ctl00$ContentPlaceHolder1$txt_customerid
+ctl00$ContentPlaceHolder1$txt_customerid
+xpath of id from BRM Application //*[@id="ContentPlaceHolder1_txt_phoneno"]
+
+3.mobile no
+id=ContentPlaceHolder1_txt_mobileno
+//input[@id="ContentPlaceHolder1_txt_mobileno"]
+
+Using Attribute
+1.//ul[@class="f1-list"]
+2.//a[@class="logo"]
+
+
+4.Contains null value in all Fields 
+Contains text and Attribute name
+
+Used this link(https://www.flipkart.com/ )
+
+//input[contains(@placeholder,"S")]
+//div[contains(text(),"Shoes")]
+//a[contains(@href,"search")]
+//a[contains(@class," ")]
+//p[contains(text()," ")]
+//*[contains(@style,"height: 32px;")]
+//footer[contains(div," ")]
+//script[contains(@type,"text/javascript")]
+//*[contains(@value," ")]
+//*[contains(@height,"14")]
+
+Using Text() Method
+
+1.//span[text()="Cart"] or //*[text()="Cart"]
+2.//a[text()=" "]
+3.//li[text()]
+4.//div[text()]
+5.
+
+Using Index:
+1.//li[ul][5]
+2.//li[@class=""][6]
+3.
+4.
+5.
+
+
+
+
+
